@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-family: 'Baloo Bhai';
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-box {
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    width: 50%;
+  }
+  h1 {
+    font-size: 32px;
+
+    /* space the each word in horizontal way */
+    letter-spacing: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #202124;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+  }
+  p {
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 0;
+    padding: 0;
+  }
+  .nepali-font {
+    color: #5f6368;
+  }
+
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  input placeholder {
+    color: #5f6368;
+    font-size: 14px;
+  }
+  .font-16 {
+    font-size: 16px;
+    color: aqua;
+  }
+
+  .input-check input {
+    display: inline-block;
+    margin: 6px 0;
+  }
+  .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+    /* transform: scaleX(0);
+    transition: transform 0.3s ease; */
+  }
+  .input:active{
+    border:none;
+  }
+  .radio-block{
+    display: block;
+  }
+  textarea{
+    border: none;
+    resize: none;
+    width: 50%;
+    border-bottom: 1px solid silver;
+  }
